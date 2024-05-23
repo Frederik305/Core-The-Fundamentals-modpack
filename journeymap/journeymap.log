@@ -1,11 +1,11 @@
-[23:59:44] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[23:59:44] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[23:59:44] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[23:59:44] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[23:59:44] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
-[23:59:44] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
-[23:59:44] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[23:59:44] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.21, built with forge 1.20.1-47.2.30
+[03:02:07] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[03:02:07] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[03:02:07] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[03:02:07] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[03:02:07] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
+[03:02:07] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
+[03:02:07] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:02:07] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.21, built with forge 1.20.1-47.2.30
 forge: 47.2.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -23,15 +23,58 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.21, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.21, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.21, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.21, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[23:59:44] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 268.33ms
-[23:59:54] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[23:59:54] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[23:59:54] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 203.36ms
-[00:00:23] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[00:00:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[00:00:43] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[00:00:43] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Summer Castaways\journeymap\data\sp\New World (8)\waypoints
-[00:00:43] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Summer Castaways\journeymap\data\sp\New World (8)\overworld. Memory: 8192MB total, 3590MB free 
-[00:00:54] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[00:02:19] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Summer Castaways\journeymap\data\mp\offline\minecraft:overworld
-[00:02:20] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:02:07] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 335.68ms
+[03:02:15] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[03:02:15] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[03:02:15] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 191.26ms
+[03:02:26] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:02:43] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[03:02:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/snake/coral_snake.png
+[03:02:44] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:02:44] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:02:44] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 8800MB total, 4901MB free 
+[03:02:44] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[03:05:17] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:05:18] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:05:23] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:05:33] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:05:33] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:05:33] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 8800MB total, 2100MB free 
+[03:07:10] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:07:11] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:07:15] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:07:25] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:07:25] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:07:25] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 8800MB total, 2845MB free 
+[03:14:36] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:14:37] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:14:43] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:14:53] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:14:53] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:14:53] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 8800MB total, 1814MB free 
+[03:17:13] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:17:13] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:17:17] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:17:27] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:17:27] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:17:27] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 8800MB total, 2609MB free 
+[03:19:16] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:19:16] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:19:21] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:19:31] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:19:31] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:19:31] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 9792MB total, 3915MB free 
+[03:21:10] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:21:11] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:21:16] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:21:26] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:21:26] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:21:26] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 9792MB total, 1829MB free 
+[03:23:06] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:23:07] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:23:12] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[03:23:21] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[03:23:21] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\waypoints
+[03:23:21] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\sp\New World (8)\overworld. Memory: 9792MB total, 1608MB free 
+[03:23:24] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Games\Minecraft\Mods\Instances\Core-The-Fundamentals-modpack\journeymap\data\mp\offline\minecraft:overworld
+[03:23:25] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
