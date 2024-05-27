@@ -54,6 +54,9 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "exposure": {
+    "lightroom": true
+  },
   "create_mechanical_spawner": {
     "spawner_data": true
   },
@@ -64,6 +67,9 @@
   },
   "pipez": {
     "pipe": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
