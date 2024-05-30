@@ -1,6 +1,6 @@
 // You can turn off auto generate in common.properties
 // You can also use '/advjs' command to generate this
-/*AdvJSEvents.advancement(event => {
+AdvJSEvents.advancement(event => {
     const { PREDICATE, TRIGGER } = event;
 
     // Define trigger
@@ -107,4 +107,3 @@ PlayerEvents.advancement(event => {
     // The first argument is use for match player predicate, the other two is the matches you defined
     CustomTriggers.of("advjs:get_adv").trigger(player, event.getAdvancement(), player.username)
 })
-*/
